@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial, sans-serif;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+h1{
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
+
+
+/* medicines-form-container----------------------- */
+.medicines-form-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #0a9396;
+	padding: 2rem;
+  }
+
+input, button {
+	width: 100%;
+	padding: 0.8rem 1rem;
+	margin: 0.5rem 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color: white;
+  }
+  button{
+	cursor: pointer;
+  }
+
+
+
+  /* medicines-form-list-------------------------- */
+#medicines-form-list{
+	width: 100%;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+td {
+	width: 10rem;
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
